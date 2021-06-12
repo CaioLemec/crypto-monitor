@@ -10,7 +10,7 @@ export function Logo() {
                 Crypto
                 <Text 
                     as="span" 
-                    color="yellow.500"
+                    color="yellow.400"
                     fontWeight="bold"
                 > Monitor</Text>
             </Text>

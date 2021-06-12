@@ -1,4 +1,4 @@
-import { Box, Text, theme, Flex } from '@chakra-ui/react';
+import { Box, Text, theme, Flex, Spinner } from '@chakra-ui/react';
 import dynamic from 'next/dynamic'
 import React, { useEffect, useState } from 'react';
 const Chart = dynamic(() => import('react-apexcharts'),{
@@ -88,7 +88,7 @@ const mounthAgoDatesValue = new Date(mounthAgoCryptoValues.date).toLocaleString(
       name: props.cryptoName,
       data: [mounthAgoValueChart,twoDaysAgoValueChart,yesterdayValueChart, todayValueChart], 
     }],
-    colors: ['#D69E2E'],
+    colors: ['#ECC94B'],
     title: {
       text: props.cryptoName,
       align: 'topCenter'
@@ -167,18 +167,27 @@ const mounthAgoDatesValue = new Date(mounthAgoCryptoValues.date).toLocaleString(
         p="10"
         bg="gray.800"
         borderRadius={8}
-        pb="4"
         mr="6"
         ml="6"
         mt="6"
       >
+        { props.isLoading === true ?
+        <>
+        <Flex justifyContent="center" alignItems="center" color ={theme.colors.gray[600]}>
+        <Spinner size="xl" />
+        </Flex>
+        </>
+        :
+        <>
         <Chart type="area" height={250} options={options} series={options.series} />
         <Flex justify="center" align="center" color ={theme.colors.gray[600]}>
-        <Text fontSize="sm" mr="4"><Text as ="span" color="yellow.500">Open:</Text> {todayFormattedOpenPrice}</Text>
-        <Text fontSize="sm" mr="4"><Text as ="span" color="yellow.500">Higher:</Text> {todayFormattedHighPrice}</Text>
-        <Text fontSize="sm" mr="4"><Text as ="span" color="yellow.500">Lower:</Text> {todayFormattedLowPrice}</Text>
-        <Text fontSize="sm" mr="4"><Text as ="span" color="yellow.500">Last:</Text> {todayFormattedLastPrice}</Text>
+        <Text fontSize="sm" mr="4"><Text as ="span" color="yellow.400">Open:</Text> {todayFormattedOpenPrice}</Text>
+        <Text fontSize="sm" mr="4"><Text as ="span" color="yellow.400">Higher:</Text> {todayFormattedHighPrice}</Text>
+        <Text fontSize="sm" mr="4"><Text as ="span" color="yellow.400">Lower:</Text> {todayFormattedLowPrice}</Text>
+        <Text fontSize="sm" mr="4"><Text as ="span" color="yellow.400">Last:</Text> {todayFormattedLastPrice}</Text>
         </Flex>
+        </>
+        }
       </Box>
   )
 }

@@ -17,7 +17,7 @@ export function Menu() {
             mr="4"
             ml="12"
             bg="transparent"
-            color="yellow.500"
+            color="yellow.400"
             _hover={{ bg: "gray.800" }}
             _active={{
               transform: "scale(0.90)",
@@ -77,7 +77,7 @@ export function Menu() {
         size="lg"
         w="32"
         bg="transparent"
-        color="yellow.500"
+        color="yellow.400"
         _hover={{ bg: "gray.800" }}
         _focus={{
           border: "none",
