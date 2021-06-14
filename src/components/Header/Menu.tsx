@@ -1,6 +1,6 @@
-import { Box, Button, Icon, Link } from '@chakra-ui/react'
 import { useRouter } from 'next/router';
 import { RiHome2Fill, RiDashboard2Fill} from 'react-icons/ri'
+import { Box, Button, Icon, Link } from '@chakra-ui/react'
 
 export function Menu() {
     const { asPath } = useRouter()
@@ -8,7 +8,7 @@ export function Menu() {
       <Box>
           {asPath === '/' ? 
         <>
-        <Link href="/">
+        <Link href="/" style={{ textDecoration: 'none' }}>
           <Button
             leftIcon={<Icon fontSize="24" as={RiHome2Fill} />}
             fontSize="16"
@@ -17,7 +17,7 @@ export function Menu() {
             mr="4"
             ml="12"
             bg="transparent"
-            color="yellow.400"
+            color="orange.500"
             _hover={{ bg: "gray.800" }}
             _active={{
               transform: "scale(0.90)",
@@ -29,7 +29,7 @@ export function Menu() {
               Home
           </Button>
         </Link>
-        <Link href="/dashboard">
+        <Link href="/dashboard" style={{ textDecoration: 'none' }}>
         <Button
         href="/dashboard"
         leftIcon={<Icon fontSize="24" as={RiDashboard2Fill} />}
@@ -49,7 +49,7 @@ export function Menu() {
         </>
         : 
         <>
-        <Link href="/">
+        <Link href="/" style={{ textDecoration: 'none' }}>
           <Button
             leftIcon={<Icon fontSize="24" as={RiHome2Fill} />}
             fontSize="16"
@@ -70,14 +70,14 @@ export function Menu() {
               Home
           </Button>
         </Link>
-        <Link href="/dashboard">
+        <Link href="/dashboard" style={{ textDecoration: 'none' }}>
         <Button
         leftIcon={<Icon fontSize="24" as={RiDashboard2Fill} />}
         fontSize="16"
         size="lg"
         w="32"
         bg="transparent"
-        color="yellow.400"
+        color="orange.500"
         _hover={{ bg: "gray.800" }}
         _focus={{
           border: "none",

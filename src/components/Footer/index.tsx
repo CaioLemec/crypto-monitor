@@ -7,10 +7,13 @@ export function Footer() {
         align="center" 
         letterSpacing="tight" 
         fontSize="xl"
+        mt={4}
+        mb={4}
+        justifyContent="center"
         >
-        Crypto <Text as="span" color="yellow.400"> Monitor </Text>
-        foi criado usando a API do <Link href="https://www.mercadobitcoin.com.br/" isExternal>
-        <Text as="span" color="#f48120">Mercado Bitcoin</Text> <Icon fontSize="24" color="#f48120" as={RiLinksLine} />
+        Crypto <Text as="span" color="orange.500"> Monitor </Text>
+        was created using the API of <Link href="https://www.mercadobitcoin.com.br/" isExternal>
+        <Text as="span" color="orange.500">Mercado Bitcoin</Text> <Icon fontSize="24" color="#f48120" as={RiLinksLine} />
         </Link>.
         </Text>
     );

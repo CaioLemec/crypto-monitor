@@ -1,7 +1,9 @@
-import { Text } from '@chakra-ui/react'
+import { Text, Link } from '@chakra-ui/react'
+
 
 export function Logo() {
     return (
+            <Link href="/" style={{ textDecoration: 'none' }}>
             <Text
                 fontSize="3xl"
                 letterSpacing="tight"
@@ -10,9 +12,10 @@ export function Logo() {
                 Crypto
                 <Text 
                     as="span" 
-                    color="yellow.400"
+                    color="orange.500"
                     fontWeight="bold"
                 > Monitor</Text>
             </Text>
+            </Link>
     );
 }

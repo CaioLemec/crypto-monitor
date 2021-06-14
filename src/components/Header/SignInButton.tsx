@@ -15,13 +15,13 @@ export function SignInButton() {
             _hover={{ bg: "gray.800" }}
             onClick={() => signOut()}
         >
-            Logged as<Text ml="1" color="yellow.400">{session.user.name}</Text>
+            Logged as<Text ml="1" color="orange.500">{session.user.name}</Text>
         </Button>
     ) 
     : 
     (
         <Button
-            leftIcon={<Icon fontSize="48" color="yellow.400" as={RiGithubFill} />}
+            leftIcon={<Icon fontSize="48" color="orange.500" as={RiGithubFill} />}
             fontSize="16"
             size="lg"
             bg="transparent"

@@ -1,6 +1,6 @@
-import { Box, Text, theme, Flex, Spinner } from '@chakra-ui/react';
-import dynamic from 'next/dynamic'
 import React, { useEffect, useState } from 'react';
+import dynamic from 'next/dynamic'
+import { Box, Text, theme, Flex, Spinner, VStack } from '@chakra-ui/react';
 const Chart = dynamic(() => import('react-apexcharts'),{
   ssr: false,
 });
@@ -88,7 +88,7 @@ const mounthAgoDatesValue = new Date(mounthAgoCryptoValues.date).toLocaleString(
       name: props.cryptoName,
       data: [mounthAgoValueChart,twoDaysAgoValueChart,yesterdayValueChart, todayValueChart], 
     }],
-    colors: ['#ECC94B'],
+    colors: ['#f48120'],
     title: {
       text: props.cryptoName,
       align: 'topCenter'
@@ -155,7 +155,7 @@ const mounthAgoDatesValue = new Date(mounthAgoCryptoValues.date).toLocaleString(
       type: 'gradient',
       gradient: {
         shade: 'dark',
-        opacityFrom: 0.7,
+        opacityFrom: 0.9,
         opacityTo: 0.3,
       }
     }
@@ -164,27 +164,39 @@ const mounthAgoDatesValue = new Date(mounthAgoCryptoValues.date).toLocaleString(
   
   return (
       <Box
-        p="10"
+        mt="8%"
         bg="gray.800"
         borderRadius={8}
-        mr="6"
-        ml="6"
-        mt="6"
+        mb={4}
+        mr={4}
+        ml={4}
       >
         { props.isLoading === true ?
         <>
-        <Flex justifyContent="center" alignItems="center" color ={theme.colors.gray[600]}>
+        <Flex justifyContent="center" h="35vh" alignItems="center" color ={theme.colors.gray[600]}>
         <Spinner size="xl" />
         </Flex>
         </>
         :
         <>
         <Chart type="area" height={250} options={options} series={options.series} />
-        <Flex justify="center" align="center" color ={theme.colors.gray[600]}>
-        <Text fontSize="sm" mr="4"><Text as ="span" color="yellow.400">Open:</Text> {todayFormattedOpenPrice}</Text>
-        <Text fontSize="sm" mr="4"><Text as ="span" color="yellow.400">Higher:</Text> {todayFormattedHighPrice}</Text>
-        <Text fontSize="sm" mr="4"><Text as ="span" color="yellow.400">Lower:</Text> {todayFormattedLowPrice}</Text>
-        <Text fontSize="sm" mr="4"><Text as ="span" color="yellow.400">Last:</Text> {todayFormattedLastPrice}</Text>
+        <Flex color={theme.colors.gray[600]} justifyContent="center">
+        <VStack mr={4}>
+        <Text color="orange.500">Open:</Text>
+        <Text textAlign="center" fontSize="sm" mr="4">{todayFormattedOpenPrice}</Text>
+        </VStack>
+        <VStack mr={4}>
+        <Text color="orange.500">Low:</Text>
+        <Text textAlign="center" fontSize="sm" mr="4">{todayFormattedLowPrice}</Text>
+        </VStack>
+        <VStack mr={4}>
+        <Text color="orange.500">High:</Text>
+        <Text textAlign="center" fontSize="sm" mr="4">{todayFormattedHighPrice}</Text>
+        </VStack>
+        <VStack mr={4}>
+        <Text color="orange.500">Last:</Text>
+        <Text textAlign="center" fontSize="sm" mr="4">{todayFormattedLastPrice}</Text>
+        </VStack>
         </Flex>
         </>
         }

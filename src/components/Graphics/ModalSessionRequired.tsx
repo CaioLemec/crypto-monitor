@@ -1,6 +1,6 @@
-import { Text, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure } from "@chakra-ui/react"
 import React, { useEffect } from "react"
 import { SignInButton } from "../Header/SignInButton"
+import { Text, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure } from "@chakra-ui/react"
 
 export default function ModalSessionRequired() {
     const { isOpen, onOpen, onClose } = useDisclosure()
