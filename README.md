@@ -3,11 +3,11 @@
 </h1>
 
 <p align="center">
-  <a href="#desktop_computer-project"><img src="https://img.shields.io/static/v1?label=&message=PROJETO&color=f48120&style=for-the-badge&logo=Next.js"/></a>&nbsp;
-  <a href="#nail_care-layout"><img src="https://img.shields.io/static/v1?label=&message=LAYOULT&color=f48120&style=for-the-badge&logo=CSS3"/></a>&nbsp;
-  <a href="#technologist-technologies"><img src="https://img.shields.io/static/v1?label=&message=TECNOLOGIAS&color=f48120&style=for-the-badge&logo=Jamstack"/></a>
-  <a href="#octocat-environment"><img src="https://img.shields.io/static/v1?label=&message=AMBIENTE&color=f48120&style=for-the-badge&logo=visual-studio-code"/></a>&nbsp;
-  <a href="#bookmark_tabs-license"><img src="https://img.shields.io/static/v1?label=&message=LICENSE&color=f48120&style=for-the-badge&logo=LibreOffice"/></a>&nbsp;
+  <a href="#desktop_computer-project"><img src="https://img.shields.io/static/v1?label=&message=Project&color=f48120&style=for-the-badge&logo=Next.js"/></a>&nbsp;
+  <a href="#nail_care-layout"><img src="https://img.shields.io/static/v1?label=&message=Layout&color=f48120&style=for-the-badge&logo=CSS3"/></a>&nbsp;
+  <a href="#technologist-technologies"><img src="https://img.shields.io/static/v1?label=&message=Technologies&color=f48120&style=for-the-badge&logo=Jamstack"/></a>
+  <a href="#octocat-environment"><img src="https://img.shields.io/static/v1?label=&message=Environment&color=f48120&style=for-the-badge&logo=visual-studio-code"/></a>&nbsp;
+  <a href="#bookmark_tabs-license"><img src="https://img.shields.io/static/v1?label=&message=License&color=f48120&style=for-the-badge&logo=LibreOffice"/></a>&nbsp;
 </p>
 
 <br>
