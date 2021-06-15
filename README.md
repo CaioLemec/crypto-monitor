@@ -40,7 +40,7 @@ Creating this application alone and without help and guidance from a more experi
 
 ## :nail_care: Layout
 <p align="center">
-<img src="./public/images/test.gif" width="65%" height="60%" />
+<img src="./public/images/test.gif" width="100%"/>
 </p>
 
 <br>
