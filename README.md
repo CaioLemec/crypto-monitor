@@ -7,7 +7,7 @@
   <a href="#nail_care-layout"><img src="https://img.shields.io/static/v1?label=&message=LAYOULT&color=f48120&style=for-the-badge&logo=CSS3"/></a>&nbsp;
   <a href="#technologist-technologies"><img src="https://img.shields.io/static/v1?label=&message=TECNOLOGIAS&color=f48120&style=for-the-badge&logo=Jamstack"/></a>
   <a href="#octocat-environment"><img src="https://img.shields.io/static/v1?label=&message=AMBIENTE&color=f48120&style=for-the-badge&logo=visual-studio-code"/></a>&nbsp;
-  <a href="#bookmark_tabs-licença"><img src="https://img.shields.io/static/v1?label=&message=LICENSE&color=f48120&style=for-the-badge&logo=LibreOffice"/></a>&nbsp;
+  <a href="#bookmark_tabs-license"><img src="https://img.shields.io/static/v1?label=&message=LICENSE&color=f48120&style=for-the-badge&logo=LibreOffice"/></a>&nbsp;
 </p>
 
 <br>
@@ -40,7 +40,7 @@ Creating this application alone and without help and guidance from a more experi
 
 ## :nail_care: Layout
 <p align="center">
-<img src="./public/images/test.gif" width="100%"/>
+<img src="./public/images/test.gif" width="75%"/>
 </p>
 
 <br>
