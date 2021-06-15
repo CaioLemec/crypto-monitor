@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="logo" title="Crypto Monitor" src="./public/images/logo.png" width="50%" />
+    <img alt="logo" title="Crypto Monitor" src="./public/images/logo.png" width="55%" />
 </h1>
 
 <p align="center">
@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
- <img alt="tela demonstrando aplicação" src="./public/images/mockup.png" width="75%">
+ <img alt="tela demonstrando aplicação" src="./public/images/mockup.png" width="65%">
 </p>
 
 <br>
