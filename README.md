@@ -59,49 +59,41 @@ Creating this application alone and without help and guidance from a more experi
 
 ## :octocat: Ambiente
 
-Para o correto funcionamento desta web aplicação tenha em mente que será necessário as seguintes instalações:
+Keep in mind that the following installations will be needed:
 
 - [Git](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git)
 - [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
 
-Siga as instruções para rodar a aplicação:
+Follow the instructions to run the application:
 
-1. Clonar o repositório:
-
-```bash
-https://github.com/CaioLemec/crypto-monitor.git
+1. Clone the repository: 
+```bash 
+git@github.com:CaioLemec/crypto-monitor.git
 ```
-
-2. No seu terminal instale as dependências usando:
-
+2. Install all dependencies by using command:
 ```bash
  yarn
-```
-
-3. Para rodar a aplicação, use em seu terminal:
+ ```
+3. In the project root, find and rename [exemple.env.local](./.env.local.exemplo) to `.env.local` following inside instructions.  
 
 ```bash
-yarn dev  
+ Siga as instruções para preencher as variaveis de ambiente necessárias. 
 ```
-
-4. Acesse o endereço em um browser compatível:
-
+4. At your terminal set this command line to get <strong>dev</strong> mode running:
+```bash
+yarn dev
+```
+5. Access the generated address in your browser:
 ```bash
 http://localhost:3000/
 ```
-
-<br>
 <hr>
 
 ## :bookmark_tabs: Licença
 
-<br>
-
 Licensed under MIT [LICENSE](./LICENSE.md).
 
-<br>
 <hr>
-<br>
 
 I am available for any clarification. 
     
