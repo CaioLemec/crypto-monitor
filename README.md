@@ -72,7 +72,7 @@ git@github.com:CaioLemec/crypto-monitor.git
 ```bash
  yarn
  ```
-3. In the project root, find and rename [exemple.env.local](./.env.local.exemplo) to `.env.local` following inside instructions.  
+3. In the project root, find and rename [exemple.env.local](./exemple.env.local) to `.env.local` following inside instructions.  
 
 ```bash
  Siga as instruções para preencher as variaveis de ambiente necessárias. 
