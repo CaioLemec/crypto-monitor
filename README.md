@@ -1,7 +1,7 @@
 <h1 align="center">
     <img alt="logo" title="Crypto Monitor" src="./public/images/logo1.png" width="55%" />
 </h1>
-
+<br>
 <p align="center">
   <a href="#desktop_computer-project"><img src="https://img.shields.io/static/v1?label=&message=Project&color=f48120&style=for-the-badge&logo=Next.js"/></a>&nbsp;
   <a href="#nail_care-layout"><img src="https://img.shields.io/static/v1?label=&message=Layout&color=f48120&style=for-the-badge&logo=CSS3"/></a>&nbsp;
