@@ -3,10 +3,10 @@
 </h1>
 
 <p align="center">
-  <a href="#desktop_computer-projeto"><img src="https://img.shields.io/static/v1?label=&message=PROJETO&color=f48120&style=for-the-badge&logo=Next.js"/></a>&nbsp;
+  <a href="#desktop_computer-project"><img src="https://img.shields.io/static/v1?label=&message=PROJETO&color=f48120&style=for-the-badge&logo=Next.js"/></a>&nbsp;
   <a href="#nail_care-layout"><img src="https://img.shields.io/static/v1?label=&message=LAYOULT&color=f48120&style=for-the-badge&logo=CSS3"/></a>&nbsp;
-  <a href="#technologist-tecnologias"><img src="https://img.shields.io/static/v1?label=&message=TECNOLOGIAS&color=f48120&style=for-the-badge&logo=Jamstack"/></a>
-  <a href="#octocat-ambiente"><img src="https://img.shields.io/static/v1?label=&message=AMBIENTE&color=f48120&style=for-the-badge&logo=visual-studio-code"/></a>&nbsp;
+  <a href="#technologist-technologies"><img src="https://img.shields.io/static/v1?label=&message=TECNOLOGIAS&color=f48120&style=for-the-badge&logo=Jamstack"/></a>
+  <a href="#octocat-environment"><img src="https://img.shields.io/static/v1?label=&message=AMBIENTE&color=f48120&style=for-the-badge&logo=visual-studio-code"/></a>&nbsp;
   <a href="#bookmark_tabs-licença"><img src="https://img.shields.io/static/v1?label=&message=LICENSE&color=f48120&style=for-the-badge&logo=LibreOffice"/></a>&nbsp;
 </p>
 
@@ -19,7 +19,7 @@
 <br>
 <hr>
 
-## :desktop_computer: Projeto
+## :desktop_computer: Project
 
 <strong>Crypto Monitor</strong> was created with the purpose of practicing knowledge acquired in the [@Rocketseat](https://app.rocketseat.com.br/) front end course. 
 
@@ -46,7 +46,7 @@ Creating this application alone and without help and guidance from a more experi
 <br>
 <hr>
 
-## :technologist: Tecnologias
+## :technologist: Technologies
 
 - [Next.js](https://nextjs.org/)
 - [React](https://pt-br.reactjs.org/)
@@ -57,7 +57,7 @@ Creating this application alone and without help and guidance from a more experi
 <br>
 <hr>
 
-## :octocat: Ambiente
+## :octocat: Environment
 
 Keep in mind that the following installations will be needed:
 
@@ -89,7 +89,7 @@ http://localhost:3000/
 ```
 <hr>
 
-## :bookmark_tabs: Licença
+## :bookmark_tabs: License
 
 Licensed under MIT [LICENSE](./LICENSE.md).
 
